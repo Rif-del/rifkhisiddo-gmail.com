@@ -1,0 +1,46 @@
+body {
+    margin: 0%;
+    padding: 0%;
+   
+}
+.logo {
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+}
+
+h1  {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100%;
+    line-height: normal;
+    margin: 0%;
+}
+
+.ordernow {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;
+    margin-top: 20px;       
+    list-style-type: none;  
+    padding: 0;
+}
+
+.ordernow li {
+    margin: 10px 0; /* Jarak antar item */
+}
+
+.ordernow a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
